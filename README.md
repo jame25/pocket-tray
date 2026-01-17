@@ -19,9 +19,9 @@ A standalone Windows system tray application for offline text-to-speech. Monitor
 
 ## Installation
 
-1. Download the latest release
-2. Download the models.zip
-3. Extract both to your preferred location
+1. Download the latest [release](https://github.com/jame25/pocket-tray/releases).
+2. Download the models / voice files from [here](https://huggingface.co/kyutai/pocket-tts).
+3. Extract both to your preferred location.
 4. Ensure the folder structure looks like this:
 
 ```
