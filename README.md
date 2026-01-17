@@ -1,6 +1,10 @@
 # Pocket-Tray
 
-A standalone Windows 10 system tray application for offline text-to-speech. Monitors your clipboard and automatically speaks copied text using the Pocket TTS neural speech synthesis engine.
+<div align="center">
+  <img width="256" height="256" alt="pipertray_icon_large" src="https://github.com/user-attachments/assets/d603300e-f7d6-4a83-9cf4-70be48ad6194" />
+</div>
+
+A standalone Windows system tray application for offline text-to-speech. Monitors your clipboard and automatically speaks copied text using the Pocket TTS neural speech synthesis engine.
 
 ![Pocket-Tray Icon](https://img.shields.io/badge/Platform-Windows%2010-blue) ![Rust](https://img.shields.io/badge/Language-Rust-orange) ![Offline](https://img.shields.io/badge/Mode-Offline-green)
 
