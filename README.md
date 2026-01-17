@@ -163,7 +163,3 @@ The TTS model runs on CPU. This is normal during speech generation. CPU usage re
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests.
-
----
-
-*Pocket-Tray - Bringing neural text-to-speech to your Windows system tray*
