@@ -1,0 +1,55 @@
+[package]
+name = "pocket-tray"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Windows system tray TTS application using Pocket TTS"
+
+[dependencies]
+# Core TTS library
+pocket-tts = { path = "../pocket-tts", default-features = false }
+candle-core.workspace = true
+
+# Error handling
+anyhow.workspace = true
+
+# Serialization
+serde = { workspace = true, features = ["derive"] }
+serde_json.workspace = true
+serde_yaml.workspace = true
+
+# System tray (cross-platform with native Windows support)
+tray-icon = "0.19"
+muda = "0.15"
+
+# Event loop
+winit = { version = "0.30", features = ["rwh_06"] }
+
+# Clipboard monitoring
+arboard = "3.4"
+
+# Audio playback
+rodio = { version = "0.19", default-features = false, features = ["wav"] }
+
+# Logging
+log = "0.4"
+env_logger = "0.11"
+
+# Image handling for icon
+image = { version = "0.25", default-features = false, features = ["ico", "png"] }
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_System_Threading",
+]}
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
+image = { version = "0.25", default-features = false, features = ["png"] }
+ico = "0.3"
+
+[[bin]]
+name = "pocket-tray"
+path = "src/main.rs"
