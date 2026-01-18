@@ -13,7 +13,7 @@ A standalone Windows system tray application for offline text-to-speech. Monitor
 - **Clipboard Monitoring** - Automatically speaks text when you copy it
 - **8 Voice Options** - Choose from alba, azelma, cosette, eponine, fantine, javert, jean, or marius
 - **Animated Tray Icon** - Visual feedback with animated equalizer bars while speaking
-- **Completely Offline** - No internet connection required after setup
+- **Completely Offline** - No internet connection required
 - **Settings Persistence** - Remembers your voice selection and monitoring state
 - **Single Executable** - Just one `.exe` file plus the models folder
 
