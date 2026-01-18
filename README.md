@@ -127,7 +127,7 @@ The executable will be in `target/release/pocket-tray.exe`
 This project builds upon the excellent work of:
 
 ### Pocket TTS - Rust Implementation
-**[babybirdprd/pocket-tts](https://github.com/babybirdprd/pocket-tts/tree/main/candle)**
+**[babybirdprd/pocket-tts](https://github.com/babybirdprd/pocket-tts)**
 
 The Rust port of Pocket TTS using the Candle ML framework, which this tray application is built upon.
 
